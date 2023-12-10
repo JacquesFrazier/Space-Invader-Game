@@ -1,6 +1,5 @@
 
 //Game Completed
-//style the game to your liking 
 
 var jet = document.getElementById('jet');
 var board = document.getElementById('board');
