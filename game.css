@@ -1,0 +1,64 @@
+
+body{
+    background-image: url(stars.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+}
+
+#board{
+    position: relative;
+    width: 900px;
+    height: 600px;
+    margin: 40px auto;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+}
+
+.fa-spaghetti-monster-flying, .fa-space-awesome{
+    font-size: 22px;
+}
+
+#jet{
+    position: absolute;
+    color: red;
+    left: 50%;
+    bottom: 0px;
+    width: 20px;
+    height: 20px;
+}
+
+.bullets {
+    position: absolute;
+    color: yellow;
+    bottom: 20px;
+    left: 30px;
+    width: 8px;
+    height: 5px;
+}
+
+.rocks{
+    position: absolute;
+    color: purple;
+    top: 0px;
+    width: 40px;
+    height: 20px;
+}
+
+/*scoreboard*/
+
+h2, #points{
+    position: absolute;
+    top: 0px;
+}
+
+h2{
+    color: white;
+    margin: 40px;
+}
+
+#points{
+    color: red;
+    margin: 80px;
+}
