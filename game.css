@@ -64,3 +64,39 @@ h2{
     color: red;
     margin: 80px;
 }
+
+
+/*Instructions*/
+
+
+.instructions{
+    color: white;
+    position: absolute;
+    top: 0px;
+}
+
+h3{
+    margin-top: 180px; 
+    margin-left: 50px;
+}
+
+.fa-arrow-up{
+    margin-top: 220px; 
+    margin-left: 30px;
+}
+
+.fa-arrow-left{
+    margin-top: 260px; 
+    margin-left: 20px;
+}
+
+.fa-arrow-right{
+    margin-top: 300px; 
+    margin-left: 10px;
+}
+
+
+
+
+
+
