@@ -6,6 +6,8 @@ var board = document.getElementById('board');
 var sound1 = new Audio();
 sound1.src = "sound1.wav";
 
+
+
 window.addEventListener('keydown', (e) => {
     var left = parseInt(window.getComputedStyle(jet).getPropertyValue('left'));
     if(e.key == "ArrowLeft" && left > 0){
