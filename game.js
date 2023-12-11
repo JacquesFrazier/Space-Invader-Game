@@ -3,7 +3,8 @@
 
 var jet = document.getElementById('jet');
 var board = document.getElementById('board');
-
+var sound1 = new Audio();
+sound1.src = "sound1.wav";
 
 window.addEventListener('keydown', (e) => {
     var left = parseInt(window.getComputedStyle(jet).getPropertyValue('left'));
@@ -41,10 +42,11 @@ window.addEventListener('keydown', (e) => {
                 bulletbound.left >= rockbound.left && 
                 bulletbound.right <= rockbound.right &&
                 bulletbound.top <= rockbound.top &&
-                bulletbound.bottom <= rockbound.bottom
+                bulletbound.bottom <= rockbound.bottom &&
+                sound1  
                 ){
                     rock.parentElement.removeChild(rock);
-
+                     sound1.play();
                     
                     //scoreboard -> complete
                     document.getElementById('points').innerHTML = 
